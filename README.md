@@ -20,6 +20,10 @@ The STL files for FauxMac can be found on [printables](https://www.printables.co
 
 ***This model may not be used for commercial purposes as noted in the license***.
 
+## Other Models
+
+If your vintage computer tastes run more towards the TRS-80 line, check out the [Faux TRS](https://github.com/jpasqua/FauxTRS). If you're a DEC person, check out the [Faux VT100](https://github.com/jpasqua/FauxVT).
+
 ## Potential Future Work
 
 * **Audio**: Add an internal audio amp and speaker. At the moment you should be able to use a bluetooth speaker or headphones, but this is untested.
