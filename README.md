@@ -1,9 +1,9 @@
 # FauxMac
 
-<img height ="256" src="images/Actual/Faux_and_Real_3.jpeg">
-<img height ="256" src="images/Actual/Faux_and_Real_1.jpeg">
-<img height ="256" src="images/Actual/Full_Portrait_Kbd_2.jpeg">
-<img height ="256" src="images/Actual/Full_Portrait_PS.jpeg">
+[<img src="images/Actual/Faux_and_Real_3.jpeg" height="256">](images/Actual/Faux_and_Real_3.jpeg)
+[<img src="images/Actual/Faux_and_Real_1.jpeg" height="256">](images/Actual/Faux_and_Real_1.jpeg)
+[<img src="images/Actual/Full_Portrait_Kbd_2.jpeg" height="256">](images/Actual/Faux_and_Real_3.jpeg)
+[<img src="images/Actual/Full_Portrait_PS.jpeg" height="256">](images/Actual/Full_Portrait_PS.jpeg)
 
 This repository contains the instructions for building a Faux [Compact Mac](https://en.wikipedia.org/wiki/Compact_Macintosh). The model is meant to evoke the feel of an early Macintosh, but is not an exact replica of any specific model. It has mounting spots for a Raspberry Pi, display, and associated hardware that allow you to run a Macintosh emulator and get the 1980's Mac experience experience.
 
