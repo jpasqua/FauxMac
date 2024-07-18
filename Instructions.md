@@ -79,6 +79,7 @@ All of the screws mount directly into the plastic of the model. You may want to 
 1. Secure the USB C breakout board using two M3 screws
 1. Secure the Boost Converter using two M3 screws
 1. After testing the unit, snap the *Front* to the *Main Case*. the magnets will hold it in place.
+2. I put a small self-adhering rubber foot at each corner of the bottom of the *Main Case* to make it less likely to slide. This is completely optional. I used some feet I happened to have lying around, so I'm not sure exactly what they are. They look like [these](https://www.amazon.com/Adhesive-Drawers-Furniture-Dampening-Transparent/dp/B08NX9KXQP).
 2. Have a break then move on to Software Setup.
 
 <a name="HardwarePlacement"></a>**Hardware Placement**:
