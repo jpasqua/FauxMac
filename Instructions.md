@@ -2,11 +2,11 @@
 These instructions are a work-in-progress. As problems are noted or suggestions arise, I will update the instructions. Thank you for your patience. Throughout the Instructions when I am referring to a printed part, I will italicize the name. For example: *Face*. Below are some reference images of the assembled model. 
 
 [<img src="images/Actual/Faux_and_Real_3.jpeg" height="256">](images/Actual/Faux_and_Real_3.jpeg)
-[<img src="images/Actual/Faux_and_Real_Back.jpeg" height ="256">](images/Actual/Faux_and_Real_Back.jpeg)
 [<img src="images/Actual/Full_Portrait_Kbd_2.jpeg" height ="256">](images/Actual/Full_Portrait_Kbd_2.jpeg)
+[<img src="images/Actual/Faux_and_Real_Back.jpeg" height ="256">](images/Actual/Faux_and_Real_Back.jpeg)
 
 [<img src="images/Model/Full_Front.jpeg" height ="256">](images/Model/Full_Front.jpeg)
-[<img src="images/Model/Full_Back.jpeg" height ="256">](images/Model/Full_Back.jpeg)
+[<img src="images/Model/Full_Back.jpeg" height ="256">](images/Model/Full_Back.jpeg) 
 
 ## Required Supplies
 
@@ -118,7 +118,7 @@ The wiring is fairly simple. You can see most of it in the photos. I will trace 
 
 * **Prepare Raspberry Pi OS**. Create an image of the Raspberry Pi OS that is appropriate for your Pi. Don't use the Lite version - you'll need the window system installed. I used the latest OS release as of July 2024, Bookworm. Boot the OS.
 * **Adjust Screen Settings**: The display board comes with a control board with several buttons. The boards are connected to one another through a fairly flat 6-wire cable. You won't be using the control board in normal operation, but you may wish to connect it during initial setup to adjust things like input source, brightness, etc. After that you can remove the control board and cable and only reattach it if needed.
-* **Flip the display orientation**. Because of the placement of ports on the display, it must be mounted upside down in the case. This means that the displayed images need to be inverted. This is accomplished using the Screen Preferences in the Raspberry Pi desktop. Selected the inverted option.
+* **Flip the display orientation**. Because of the placement of ports on the display, it must be mounted upside down in the case. This means that the display orientation needs to be flipped 180&deg;. This is accomplished using the Screen Preferences in the Raspberry Pi desktop. Selected the inverted option.
 
 	[<img src="images/SW/ScrPrefs.png" width="256">](images/SW/ScrPrefs.png)
 	[<img src="images/SW/Inverted.png" width="256">](images/SW/Inverted.png)
@@ -144,7 +144,8 @@ The wiring is fairly simple. You can see most of it in the photos. I will trace 
 		# Get the ROM file
 		wget https://raw.githubusercontent.com/ekbann/chromebook-basilisk2-sdl2/main/Quadra800.ROM
 		```
-* **Create a Basilisk prefs file**. Here is how I create mine:
+* **Create a Basilisk prefs file**. This file points to your ROM file and your disk image. It also specifies a directory on your Pi which will appear as a shared disk on your virtual Mac desktop. If you want the emulator to start full screen, use the file as-is. If you'd like to start in a window, comment out `screen dga/512/342` by adding a `#` at the beginning. Uncomment the other `screen` line by removing the `#`.
+Here is how I create mine:
 
 	   ```
 		mkdir ~/.config/
@@ -163,5 +164,5 @@ The wiring is fairly simple. You can see most of it in the photos. I will trace 
 		screen dga/512/342
 		displaycolordepth 8" > ~/.config/BasiliskII/prefs
 	   ```
-* **Create/Obtain a Mac Disk Image**: This is the trickiest part of the emulator setup process and I won't repeat all the details here. Please refer to [these instructions](https://www.emaculation.com/doku.php/sheepshaver_basiliskii_linux). You may find it easiest to run Basilisk on a Mac or Windows machine and create the image there. Then you can just copy it to your FauxMac and place it in the `~/emulator_resources` directory. As you can see in the `prefs` file mentioned above, my disk image is in a file named `System7.5.5.dsk`.
+* **Create/Obtain a Mac Disk Image**: This is the trickiest part of the emulator setup process and I won't repeat all the details here. I supply an image as part of this repository, but it is not allowed. Please refer to [these instructions](https://www.emaculation.com/doku.php/sheepshaver_basiliskii_linux). You may find it easiest to run Basilisk on a Mac or Windows machine and create the image there. Then you can just copy it to your FauxMac and place it in the `~/emulator_resources` directory. As you can see in the `prefs` file mentioned above, my disk image is in a file named `System7.5.5.dsk`.
 
