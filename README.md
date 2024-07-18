@@ -10,7 +10,7 @@ This repository contains the instructions for building a Faux [Compact Mac](http
 
 There are two Mac emulators that I have tried and they are [packaged together on GitHub](https://github.com/kanjitalk755/macemu/tree/master): Basilisk II and SheepShaver. The latter will emulate PowerPC versions of the Mac. I tend to use the former (Basilisk II), and the instructions will refer to it.
 
-Take a look at a [short video](https://youtu.be/NNNNNN) of the model in operation.
+Take a look at a [short video](https://youtu.be/9o8oXhZbEew) of the model in operation.
 
 **[INSTRUCTIONS](Instructions.md)**: This document desribes how to print, assemble, wire, and prepare software for FauxMac.
 
