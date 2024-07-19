@@ -26,7 +26,7 @@ If your vintage computer tastes run more towards the TRS-80 line, check out the 
 
 ## Potential Future Work
 
-* **Audio**: Add an internal audio amp and speaker. At the moment you should be able to use a bluetooth speaker or headphones, but this is untested.
+* **Audio**: Add an internal audio amp and speaker. At the moment you can use an external bluetooth speaker or headphones.
 * **External HDMI Connector**: It might be nice to be able to display on a larger screen when demonstrating the mac emulator to a group of people. When using a Pi 4 or 5, the secondary HDMI port could go to an HDMI connector on the back panel.
 * **Face Decal**: A 3D-printed Mac logo and text for the front of the case would be too small for good detail and requires multiple colors. Instead I will provide an SVG that can be used to create a decal on a cutting machine like a Cricut. I am making an SE/30 decal even though FauxMac is not a recreation of any particular Mac. Here's an example of an SE/30 decal I'm making.
 
