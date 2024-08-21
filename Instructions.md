@@ -65,7 +65,7 @@ Printing and assembling this model will take some time. The largest part, the *M
 
 After printing the parts, removing supports, and doing any other cleanup/post-processing that you deem necessary, you are ready to assemble the model. The steps below are for the physical assembly, but you'll need to do the wiring along the way. An overview of the wiring is given in a separate section, but is called out in the steps below. 
 
-All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Do no over-tighten.
+All of the screws mount directly into the plastic of the model. You may want to run some screws into the holes a bit to make it easier to start the screws during the actual assembly process. Don't over-tighten.
 
 1. Using a small dab of CA glue, affix a magnet into each corner of the *Main Case*. You will notice that the bottom two magents are slightly recessed (about 1mm). To establish the proper orientation for the four remaining magnets, stick them magnetically to the glued magnets. Make a mark on the visible face of these magnets. The mark should indicate which corner that magnet goes in, and its orientation. For example, you might write "LL" on the magnet that goes in the lower left corner.
 1. Using a small dab of CA glue, affix one of the marked magnets into each corner of the *Face*. The marked face of the magnet goes into the recess. It is critical to get the orientation right, so double-check before gluing.
