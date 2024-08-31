@@ -18,8 +18,6 @@ Take a look at a [short video](https://youtu.be/9o8oXhZbEew) of the model in ope
 
 The STL files for FauxMac can be found on [printables](https://www.printables.com/model/946687).
 
-***This model may not be used for commercial purposes as noted in the license***.
-
 ## Other Models
 
 If your vintage computer tastes run more towards the TRS-80 line, check out the [Faux TRS](https://github.com/jpasqua/FauxTRS). If you're a DEC person, check out the [Faux VT100](https://github.com/jpasqua/FauxVT).
@@ -31,3 +29,14 @@ If your vintage computer tastes run more towards the TRS-80 line, check out the 
 * **Face Decal**: A 3D-printed Mac logo and text for the front of the case would be too small for good detail and requires multiple colors. Instead I will provide an SVG that can be used to create a decal on a cutting machine like a Cricut. I am making an SE/30 decal even though FauxMac is not a recreation of any particular Mac. Here's an example of an SE/30 decal I'm making.
 
   <img width ="256" src="images/SE30_Decal.jpg">
+
+## License: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
