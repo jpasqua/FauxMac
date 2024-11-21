@@ -86,7 +86,7 @@ All of the screws mount directly into the plastic of the model. You may want to 
 
 [<img src="images/Assembly/HW/Magnets_Face.jpeg" height ="256">](images/Assembly/HW/Magnets_Face.jpeg)
 [<img src="images/Assembly/HW/Magnets_Main_Case.jpeg" height ="256">](images/Assembly/HW/Magnets_Main_Case.jpeg)
-[<img src="images/Assembly/HW/Face_Screws.jpeg" width="256">](images/Assembly/HW/FaceScrews.jpeg)
+[<img src="images/Assembly/HW/Face_Screws.jpeg" width="256">](images/Assembly/HW/Face_Screws.jpeg)
 [<img src="images/Assembly/HW/Main_Case_Screws.jpeg" width="256">](images/Assembly/HW/Main_Case_Screws.jpeg)
 
 <a name="Wiring"></a>
@@ -95,14 +95,14 @@ All of the screws mount directly into the plastic of the model. You may want to 
 The wiring is fairly simple. You can see most of it in the photos. I will trace through the connections starting with the USB-C connector. Depending on how much you want to facilitate disassembly and changes, you may wish to use two prong connectors at certain spots. Refer to the images to see where I used connectors.
 
 1. Connect `VBUS` on the USB breakout board to one leg of the power switch.
-1. Connect the other leg of the power with to the positive (red) leg of the USB Cable End.
+1. Connect the other leg of the power switch to the positive (red) leg of the USB Cable End.
 1. Also connect the same leg of the power switch to `IN+` on the Boost converter.
 1. Connect `GND` on the USB breakout board to `IN-` on the Boost converter.
 1. Also Connect `GND` on the USB breakout board to to the ground (usually black or white) leg of the USB Cable End.
 1. Output from the Boost Converter. You have a couple of options here:
-    2. Connect the outputs of the boost converter (`OUT+` and `OUT-`) to a cable with a male barrel connector on the end. It should correspond to the female barrel connector on the display. Plug in the barrel connector.
-    3. *Alternatively*, solder a red wire and a black wire to the back of the display board. If you look at the board near the barrel jack you'll see pads labeled `12V` and `GND`. You can use those or solder directly to the  legs of the barrel connector. If you use this method, it is convent to put some type of 2-pin connector between the Boost converter and display so they can be separated easily. This is the approach I took. See the reference photo.
-    4. **Important**: Adjust the Boost Converter output to 12V. If the voltage is too high, it may damage your controller board.
+    - Connect the outputs of the boost converter (`OUT+` and `OUT-`) to a cable with a male barrel connector on the end. It should correspond to the female barrel connector on the display. Plug in the barrel connector.
+    - *Alternatively*, solder a red wire and a black wire to the back of the display board. If you look at the board near the barrel jack you'll see pads labeled `12V` and `GND`. You can use those or solder directly to the  legs of the barrel connector. If you use this method, it is recommended to put some type of 2-pin connector between the Boost converter and display so they can be separated easily. This is the approach I took. See the reference photo.
+    - **Important**: Adjust the Boost Converter output to 12V. If the voltage is too high, it may damage your controller board.
 1. Connect the angled HDMI connector to the input of the display board.
 1. Connect the free end of the HDMI cable to the Raspberry Pi.
 1. Plug the USB Cable End into the Raspberry Pi.
@@ -165,5 +165,5 @@ Here is how I create mine:
 		screen dga/512/342
 		displaycolordepth 8" > ~/.config/BasiliskII/prefs
 	   ```
-* **Create/Obtain a Mac Disk Image**: This is the trickiest part of the emulator setup process and I won't repeat all the details here. I supply an image as part of this repository, but it is not allowed. Please refer to [these instructions](https://www.emaculation.com/doku.php/sheepshaver_basiliskii_linux). You may find it easiest to run Basilisk on a Mac or Windows machine and create the image there. Then you can just copy it to your FauxMac and place it in the `~/emulator_resources` directory. As you can see in the `prefs` file mentioned above, my disk image is in a file named `System7.5.5.dsk`.
+* **Create/Obtain a Mac Disk Image**: This is the trickiest part of the emulator setup process and I won't repeat all the details here. The system software cannot be included in this repository. Please refer to [these instructions](https://www.emaculation.com/doku.php/sheepshaver_basiliskii_linux). You may find it easiest to run Basilisk on a Mac or Windows machine and create the image there. Then you can just copy it to your FauxMac and place it in the `~/emulator_resources` directory. As you can see in the `prefs` file mentioned above, my disk image is in a file named `System7.5.5.dsk`.
 
